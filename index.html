@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Central</title>
+    <!-- cinematic-logo -->
+    <link rel="icon" href="./images/cinematic-logo.png" type="image/x-icon">
+    <!-- stylesheet / css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- animation link -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- online fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header-section -->
+    <header id="top-page">
+         <!-- nav-bar -->
+         <nav>
+            <span id="cinematic-logo">amc</span>
+            <ul>
+              <li><a href="index.html"><span class="active">Home</span></a></li>
+              <li><a href="movies.html"><span>Movies</span></a></li>
+              <li><a href="#featured-movies"><span>Featured movies</span></a></li>
+              <li><a href="#sign-up"><span>Sign Up</span></a></li>
+              <li><input type="search" placeholder=" 🔎 Search..."></li>
+            </ul>
+         </nav>
+         <span style="text-align: center;"> <h1 class="site-heading">AMC <br>Cinema Central</h1></span>
+    </header>
+    <!-- main-section -->
+     <main> 
+    <!-- advertis-vedio -->
+      <div class="advertis-para">
+        <p class="advertis-paragraph">Nothing like being told how great the movies are when you're already at the movies <br> trying to watch the movie</p>
+      </div>
+      <div class="advertis-vedio">
+        <video width="55%" height="55%" autoplay controls class="video">
+          <source src="./media/advertis-video.mp4" type="video/mp4">
+          <source src="./media/advertis-video.mp4" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
+      </div> 
+    <!-- featured movies -->
+    <section class="featured-movies">
+      <h2 id="featured-movies">FEATURED MOVIES ⭐⭐⭐⭐⭐</h2>
+      <div class="movie-category">
+        <div class="movie-item">
+            <img src="./images/moxie.jpg" alt="movie-photo" width="260px" height="280px" class="image">
+            <div class="play-button">
+              <button class="btn" ><a href="moxie-movie.html"><i class="fa-solid fa-play"></i></a></button>
+            </div>
+           <div>
+            <h3>Find Your Voice</h3>
+          <span class="movie-details">Lorem ipsum dolor, sit amet cons <br>ectetur adipisicing elit </span>
+           </div>
+        </div>
+        <div class="movie-item">
+          <img src="./images/happyness.jpg" alt="movie-photo" width="260px" height="280px" class="image">
+          <div class="play-button">
+            <button class="btn"><a href="happyness-movie.html"><i class="fa-solid fa-play"></i></a></button>
+          </div>
+         <div>
+          <h3>The Pursuit of Happyness</h3>
+        <span class="movie-details">Lorem ipsum dolor, sit amet cons <br>ectetur adipisicing elit </span>
+         </div>
+      </div>
+      <div class="movie-item">
+        <img src="./images/jessica.webp" alt="movie-photo" width="260px" height="280px" class="image">
+        <div class="play-button">
+          <button class="btn"><a href="jessica-movie.html"><i class="fa-solid fa-play"></i></a></button>
+        </div>
+       <div>
+        <h3>Jessica Jones</h3>
+      <span class="movie-details">Lorem ipsum dolor, sit amet cons <br>ectetur adipisicing elit </span>
+       </div>
+    </div>
+        
+      </div>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <span class="footer-cinematic-logo">amc</span>
+         <div class="footer-section">
+          <div class="social-links">
+            <span>Follow AMC</span><br><br>
+          <span class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100074411835692" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_nadiajami_/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://x.com/Nadi_Jami" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+            <a href="https://www.linkedin.com/in/nadia-jami/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </span>
+          </div>
+          <div class="form-section" id="sign-up">
+            <form action="#">
+              <span>Sign Up To Get The Latest</span><br><br>
+              <input type="email" placeholder="Email address" class="inputs">
+              <select id="movie" name="movie" class="inputs selection" required>
+                <option value="" disabled selected hidden >Please Choose...</option>
+                <option value="American">American</option>
+                <option value="Hendian">Hendian</option>
+                <option value="Chines">Chines</option>
+                <option value="Iranian">Iranian</option>
+              </select>
+              <input type="submit" value="Sign Up">
+              <span><a href="#top-page" style="color: gray; text-decoration: none;">&nbsp;| TOP PAGE &nbsp;<i class="fa-solid fa-arrow-up-long"></i></a></span> 
+            </form>
+          </div>
+         </div>
+      <div class="copy-right">&copy; 2024 AME Cinematic Central Designed by <span style="color: brown;">Nadia Jami</span></div>
+    </footer>
+</body>
+</html>
